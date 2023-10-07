@@ -5,44 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ashley Chin</title>
     <link rel="shortcut icon" href="./images/Ashley Chin Roster Picture.jpeg" type="image/x-icon">
-  
     <!--Link an external CSS file-->
-  <link rel="stylesheet" href="./css/style.css" />
-
-  <!--Internal CSS embedding using the style tag-->
-  <style>
-    body {
-      background-color:lightpink;
-    }
-  </style>
+    <link rel="stylesheet" href="./css/style.css" />
 
   </head>
   <body>
 <!--Starting the protfolio with a title in bold large font-->
   <header>
-    <h1>Ashley Chin's Portfolio Website</h1>
-    <hr />
 
-    <div>
-    <nav id="navbar">
+    <nav class="navbar">
+    <img src="./images/Ashley Chin Roster Picture.jpeg"
+      alt="Ashley's Picture" height="250" width="170" style="float: right"/>
+    
       <a href="./index.html" class="navOption">Home</a>
       <a href="./html/my_resume.html" class="navOption">Resume</a>
       <a href="./html/my_fun_facts.html" class="navOption">My Fun Facts</a>  
-    </div> 
 
-<!--Inserting an image of myself--> 
-    <div>
-    <img
-      src="./images/Ashley Chin Roster Picture.jpeg"
-      alt="Ashley's Picture" height="250" width="170"
-        />
-    </div>
-<!--An inspirational quote that describes me as a person and a small desription-->
-    <hr/>
+    </nav>
+
+      <img src="./images/cat.images.png" alt="cat" style="float: left;">
+      <div style="text-align: left;"> </div>
+ 
+  <!---inspirational quote that describes me as a person and a small desription-->
+    <h1>Ashley Chin</h1>
+  
       <h3>“Don't put off till tomorrow what you can do today.”-Benjamin Franklin.</h3>
     <hr/>
+    
+    <article>
+    <h2>About Me</h2>
 
-    <h2><strong>About Me</strong></h2>
     <p>My name is Ashley Chin. I am aspiring IT student, currently studying in Oakland University.
     I am on the women's golf team, playing in NCAA D1 sports, which makes it a challenge daily to
     balance being a student and an athlete. Yet, I think of myself as an organized and responsible 
@@ -51,6 +43,7 @@
       and some of
       <a href="./html/my_fun_facts.html">my Fun Facts.</a> 
     </p>
+    </article>
 
 <!--Progress to degree, credit hours and 83% completed progress bar-->
     <div>
@@ -60,16 +53,20 @@
     </div>
     
   </header>
-  <hr />
+
+  <hr>
+  <button type="button" onclick="alert('click')">Click Me</button>
+  <hr>  
+
 <!--Footer with my email and phone number-->
-    <div>
   <footer>
+    <div style="text-align: center;">
     <p>@ Ashley Chin, 2023.</p>
     <a href="mailto:ashleychin@oakland.edu">ashleychin@oakland.edu</a>
     <a href="tel:+248-495-3679">(248)495-3679</a>
   </footer>
     </div>
   </nav>
- 
+  
   </body>
 </html>

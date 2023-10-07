@@ -6,16 +6,17 @@
     <title>Ashley Chin</title>
     <link rel="shortcut icon" href="../images/Ashley Chin Roster Picture.jpeg"
      type="image/x-icon">
-    
+    <link rel="stylesheet" href="../css/style.css">    
+
   </head>
   <body>
 <!--Starting the portfolio with a title in bold large font-->
   <header>
-    <h1>Ashley Chin - Resume</h1>
+    <h1>Resume</h1>
     <hr />
 
     <div>
-    <nav id="navbar">
+    <nav class="navbar">
       <a href="../index.html" class="navOption">Home</a>
       <a href="my_resume.html" class="navOption">Resume</a>
       <a href="my_fun_facts.html" class="navOption">My Fun Facts</a>  
@@ -25,7 +26,7 @@
     <div>
     <img
       src="../images/Ashley Chin Roster Picture.jpeg"
-      alt="Ashley's Picture" height="250" width="170"
+      alt="Ashley's Picture" height="250" width="170" style="float: left;"
         />
     </div>
     <hr />
@@ -37,15 +38,19 @@
     <p>Phone: <a href="tel:+248-495-3679">(248)495-3679</a></p>
     </div>
     <hr />
+
 <!--Inserting Objective for resume-->
     <div>
         <h2><strong>Objective</strong></h2>
         <p>Determined, responsible individual seeking an information technology internship for summer 2024.</p> 
     </div>
     <hr />
+
 <!--Professional Experience (intercollegiate athletics)-->
     <div>
         <h2><strong>Intercollegiate Athletics</strong></h2>
+        <article>
+            <section style="margin-left: 25px">
         <h3><i>Oakland University Women’s Golf, Rochester, MI (August 2021-Present)</i></h3>
         <ul>
         <li>Allocate 20-30 hours per week to weight training, skill work, practice, conditioning,
@@ -57,12 +62,19 @@
         <li>Contributed to the winning of the Horizon League Women’s Golf Championship 2022 as a team.</li>
         <li>Chosen to be representative for the Oakland University Student-Athlete Advisory Committee.</li>
         </ul>
+    </section>
+    </article>
     </div>
     <hr />
 <!--Education history with a table-->
     <div>
-        <h2><strong>Education</strong></h2>    
-        <table border="1">
+        <h2><strong>Education</strong></h2>  
+        <style>
+            table, th, td {
+                border: 1px solid rgb(246, 93, 146);
+            }
+        </style>  
+        <table>
         <tr>
             <td>Start - End</td>
             <td align="center">Degree</td>
@@ -80,18 +92,23 @@
     <hr />
 <!--Extracurricular Interests and Hobbies-->
     <div>
-        <h2><strong>Extracurricular Interests</strong></h2>
+    <h2><strong>Extracurricular Interests</strong></h2>
+    <article>
+        <section style="margin-left: 25px">
         <p>In my free time, I enjoy doing arts, such as painting or scrapbooking. 
         I also enjoy cooking various cuisines, such as Chinese, Japanese, Italian etc.
         I always make time for some family sctivities as I value family bonding very much, and I have a 
         great bond with my family.
         I also enjoy listening to all kinds of genres of music, such as country, pop, rap etc. </p>
     </div>
+</section>
+</article>
     <hr />
 </header>
 <!--footer-->
 <div>
 <footer>
+    <div style="text-align: center;">
     <p>@ Ashley Chin, 2023.</p>
     <a href="mailto:ashleychin@oakland.edu">ashleychin@oakland.edu</a>
     <a href="tel:+248-495-3679">(248)495-3679</a>
