@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSI 3150 Take-Home Assignment 1_Ashley Chin</title>
+    <title>Ashley Chin</title>
     <link rel="shortcut icon" href="../images/Ashley Chin Roster Picture.jpeg"
      type="image/x-icon">
+     <link rel="stylesheet" href="../css/style.css"
     
   </head>
   <body>
@@ -15,19 +16,17 @@
     <hr />
 
     <div>
-    <nav id="navbar">
-      <a href="../index.html">Home</a>
-      <a href="my_resume.html">Resume</a>
-      <a href="my_fun_facts.html">My Fun Facts</a>  
-    </div> 
-
-<!--Inserting an image of myself--> 
-    <div>
-    <img
+    <nav class="navbar">
+      <img
       src="../images/Ashley Chin Roster Picture.jpeg"
-      alt="Ashley's Picture" height="250" width="170"
+      alt="Ashley's Picture" height="250" width="170" style="float: left;"
         />
-    </div>
+      <a href="../index.html" class="navOption">Home</a>
+      <a href="my_resume.html" class="navOption">Resume</a>
+      <a href="my_fun_facts.html" class="navOption">My Fun Facts</a>  
+    </div> 
+    </nav>
+
     <hr />
 <!--creating sections of my favourite book, song and movie-->
 <div>
@@ -37,6 +36,7 @@
         src="../images/book.jpg" 
         alt="The Spanish Love Deception" height="200" width="150"
     />
+    <article>
     <p>“I’ll be your date to the wedding.”</p>
     <p></p>
     <p>A TikTok sensation, this rom-com about a young woman who agrees to fake date a colleague and bring him to 
@@ -45,11 +45,13 @@
     <a href="https://www.amazon.com/Spanish-Love-Deception-Novel/dp/1668002523">Amazon</a>, 
     if you delight yourself in a good read!
     </p>
+  </article>
 </div>
 <hr />
 <div>
     <h2><strong>My Favorite Song</strong></h2>
     <h3><i>Thank God - Kane Brown and Katelyn Brown</i></h3>
+    <article>
     <p>"Thank God" is one of my favorite songs from all time. It is a song from Kane Brown dedicated to his wife
         as he sings about how he thanks God everyday for sending him, her. It is a cute, romantic song.
     </p>
@@ -61,19 +63,20 @@
     <p>You can listen to the full version of this song at 
         <a href= "https://open.spotify.com/track/1brnLTvarI9D1hLP6z2Ar8"> Spotify!</a></p>    
 </div>
+</article>
 <hr />
 <div>
     <h2><strong>My Favorite Movie</strong></h2>
     <h3><i>Elemental - 2023</i></h3>
-    <video width="500" height="350" controls>
-        <source src="../videos/y2mate.is - Elemental _ Official Trailer-hXzcyx9V0xw-720p-1695341556.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hXzcyx9V0xw?si=BSFKZs96P8uO1CW6" 
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+  </iframe>
 </div>
 </header>
 <!--footer-->
-<div>
 <footer>
+  <div style="text-align: center;">
     <p>@ Ashley Chin, 2023.</p>
     <a href="mailto:ashleychin@oakland.edu">ashleychin@oakland.edu</a>
     <a href="tel:+248-495-3679">(248)495-3679</a>
