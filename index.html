@@ -10,42 +10,46 @@
 
   </head>
   <body>
-<!--Starting the protfolio with a title in bold large font-->
+<!--Starting the portfolio with a title in bold large font-->
   <header>
-
+    <div style= "text-align: left;">
     <nav class="navbar">
-    <img src="./images/Ashley Chin Roster Picture.jpeg"
-      alt="Ashley's Picture" height="250" width="170" style="float: right"/>
     
+    <img src="./images/cat.png.png" alt="cat" style="float: left;">
       <a href="./index.html" class="navOption">Home</a>
       <a href="./html/my_resume.html" class="navOption">Resume</a>
       <a href="./html/my_fun_facts.html" class="navOption">My Fun Facts</a>  
 
-      <img src="./images/cat.images.png" alt="cat" style="float: left;">
+      
       <div style="text-align: left;"> </div>
     </nav>
-    
+
+    <div id="my picture">
+    <img 
+    src="./images/ashleypic.png"
+      alt="Ashley's Picture" height="250" width="170" style="float: right"/>
+    </div>
+
   <!---inspirational quote that describes me as a person and a small desription-->
     <h1>Ashley Chin</h1>
-  
+    <div class="myquote">
       <h3>“Don't put off till tomorrow what you can do today.”-Benjamin Franklin.</h3>
     <hr/>
+    </div>
 
-    <article>
+    <main id="about me">
     <h2>About Me</h2>
-
+    <div class="aboutme">
     <p>My name is Ashley Chin. I am aspiring IT student, currently studying in Oakland University.
     I am on the women's golf team, playing in NCAA D1 sports, which makes it a challenge daily to
     balance being a student and an athlete. Yet, I think of myself as an organized and responsible 
-    person. I also love drawing and doing arts. To know more about me, check out my 
-      <a href="./html/my_resume.html">resume</a>
-      and some of
-      <a href="./html/my_fun_facts.html">my Fun Facts.</a> 
+    person. I also love drawing and doing arts. To know more about me, check out my <a href="./html/my_resume.html">resume</a>and some of<a href="./html/my_fun_facts.html">my Fun Facts.</a> 
     </p>
-    </article>
+    </div>
 
 <!--Progress to degree, credit hours and 83% completed progress bar-->
-    <div>
+    
+<div class="progressbar">
         <label for="file"><h2><strong>Credit Hours:</strong></h2> 
         98/128</label>
         <progress id="file" max="100" value="80">83%</progress>
@@ -56,7 +60,7 @@
   <hr>
   <button type="button" onclick="alert('click')">Click Me</button>
   <hr>  
-
+</main>
 <!--Footer with my email and phone number-->
   <footer>
     <div style="text-align: center;">
