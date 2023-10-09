@@ -6,50 +6,110 @@
 
 body {
   background-color: rgba(238, 196, 203, 0.716);
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .navbar {
   list-style-type: none;
   margin: 10px;
-  padding: 10px;
+  padding: 5px;
   overflow: hidden;
   background-color: rgba(248, 158, 197, 0.816);
   border-radius: 20px;
   text-align: center;
+  height: 70px;
 }
 
 .navbar a {
   border: 1px rgb(0, 0, 0);
-  margin: 150px;
+  margin: 169px;
   color: rgb(98, 2, 58);
   text-align: center;
   padding: 10px;
+  border-radius: 10px;
   text-decoration: none;
   font-size: 20px;
-  height: 10px;
-  line-height: 200px;
+  height: 5px;
+  line-height: 70px;
 }
 
 .navbar a:hover {
-  background-color: rgba(248, 177, 211, 0.863);
+  background-color: rgba(253, 205, 228, 0.863);
   transition: 0.7s ease;
 }
 
 .myquote {
   padding: 50px;
-  text-align: center;
-  font-size: 30px;
-}
-
-.aboutme {
-  padding: 0%;
+  color: rgb(138, 35, 71);
   text-align: center;
   font-size: 23px;
 }
 
+.aboutme {
+  padding: 0%;
+  text-align: left;
+  font-size: 23px;
+}
+
 .progressbar {
-  padding: 50px;
+  padding: 0%;
+  text-align: left;
+  font-size: 16px;
+}
+
+button {
+  background-color: rgba(248, 158, 197, 0.816);
+  color: rgb(93, 22, 53);
   text-align: center;
-  font-size: 30px;
+  border-radius: 10px;
+  font-size: x-large;
+  border: none;
+  margin: 20px;
+  padding: 20px;
+}
+
+button:hover {
+  background-color: rgb(226, 161, 186);
+  transition: 0.3s ease;
+}
+
+.hr1 {
+  border-top: 2px solid rgb(207, 144, 181);
+}
+
+.hr2 {
+  border-top: 2px solid rgb(207, 144, 181);
+}
+
+.hr3 {
+  border-top: 2px solid rgb(207, 144, 181);
+}
+
+.hr4 {
+  border-top: 2px solid rgb(207, 144, 181);
+}
+
+.hr5 {
+  border-top: 2px solid rgb(207, 144, 181);
+}
+
+.hr6 {
+  border-top: 2px solid rgb(207, 144, 181);
+}
+
+.hr7 {
+  border-top: 2px solid rgb(207, 144, 181);
+}
+
+.hr8 {
+  border-top: 2px solid rgb(207, 144, 181);
+}
+
+.hr9 {
+  border-top: 2px solid rgb(207, 144, 181);
+}
+
+.hr10 {
+  border-top: 2px solid rgb(207, 144, 181);
 }
