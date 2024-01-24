@@ -5,20 +5,20 @@
 }
 
 body {
-  background-color: rgba(238, 196, 203, 0.716);
+  background-color: rgb(241, 226, 228);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .navbar {
-  list-style-type: none;
   margin: 10px;
-  padding: 5px;
+  padding: 10px;
   overflow: hidden;
-  background-color: rgba(248, 158, 197, 0.816);
+  background-color: rgba(232, 175, 199, 0.816);
   border-radius: 20px;
-  text-align: center;
-  height: 70px;
+  text-align: auto;
+  height: auto;
+  width: auto;
 }
 
 .navbar a {
@@ -59,7 +59,7 @@ body {
 }
 
 button {
-  background-color: rgba(248, 158, 197, 0.816);
+  background-color: rgb(226, 161, 186);
   color: rgb(93, 22, 53);
   text-align: center;
   border-radius: 10px;
@@ -74,7 +74,7 @@ button:hover {
   transition: 0.3s ease;
 }
 
-.hr1 {
+.hr {
   border-top: 2px solid rgb(207, 144, 181);
 }
 
@@ -112,4 +112,8 @@ button:hover {
 
 .hr10 {
   border-top: 2px solid rgb(207, 144, 181);
+}
+
+.title {
+  font-size: 30px;
 }
