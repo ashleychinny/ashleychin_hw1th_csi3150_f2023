@@ -25,13 +25,13 @@ body {
   border: 1px rgb(0, 0, 0);
   margin: 169px;
   color: rgb(98, 2, 58);
-  text-align: center;
+  text-align: auto;
   padding: 10px;
   border-radius: 10px;
   text-decoration: none;
   font-size: 20px;
-  height: 5px;
-  line-height: 70px;
+  height: 1px;
+  line-height: 50px;
 }
 
 .navbar a:hover {
