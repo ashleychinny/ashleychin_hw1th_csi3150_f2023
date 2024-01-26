@@ -4,8 +4,20 @@
   padding: 3px;
 }
 
-body {
+body.index {
   background: linear-gradient(#e978a085, #f4bdd1a5, #f7c7d9a5, #e785a785);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body.story {
+  background: linear-gradient(#e978a085, #f4bdd1a5, #f7c7d9a5, #e785a785);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body.resume {
+  background-color: #f9e6f0; /* Set the background color or image for index.html */
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -16,6 +28,37 @@ body {
   text-align: center;
   max-width: 1100px; /* Adjust the max-width as needed */
   margin: 0 auto;
+}
+.blog-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blog-entry {
+  width: 100%; /* Adjust the width as needed */
+  box-sizing: border-box;
+  margin: 5px; /* Add margin to create space between entries */
+  display: flex;
+
+  flex-direction: row;
+}
+
+.blog-content,
+.blog-image {
+  width: 60%;
+  border-radius: 20px;
+}
+
+.blog-image img {
+  border-radius: 10px;
+}
+
+.blog-entry:nth-child(even) .blog-content {
+  order: 2;
+}
+
+.blog-entry:nth-child(even) .blog-image {
+  order: 1;
 }
 
 .navbar {
